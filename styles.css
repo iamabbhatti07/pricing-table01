@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background: pink;
+	background: black;
 }
 @media only screen and (min-width: 993px){
 	.one:hover:hover , .two:hover, .three:hover{
