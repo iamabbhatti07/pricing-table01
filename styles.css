@@ -12,6 +12,7 @@ body{
 	}
 	.two{
 		transform:scale(1.01,1.05) ;
+		z-index:10;
 	}
 
 }
@@ -28,10 +29,9 @@ body{
 		flex-wrap: wrap;
 	}
 }
-
-/* @media only screen and (max-width: 600px){
-	.main-content{
-		display: flex;
-		flex-direction: column;
-	}
-} */
+.one{
+	z-index:10;
+}
+.three{
+	z-index:5;
+}
